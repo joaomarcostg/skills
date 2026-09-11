@@ -29,7 +29,7 @@ In Claude Code each skill is also a slash command: `/explain`, `/concise`, `/rev
 
 ### Merge requests
 
-- **[review-mr](skills/review-mr/SKILL.md)**. Review a colleague's GitLab merge request end to end. Explains what it does, finds defects, sends fresh subagents to refute each finding, drops nits, then posts the survivors as inline comments after you approve each one.
+- **[review-mr](skills/review-mr/SKILL.md)**. Review a colleague's GitLab merge request end to end. Explains what it does, then asks the three questions a human reviewer asks: does it do its job, what else does it touch, is the code decent. Refutes every finding with a fresh subagent, keeps quality findings off the MR unless the cost compounds, and ends with a verdict.
 - **[address-mr-feedback](skills/address-mr-feedback/SKILL.md)**. Read review comments on a GitLab MR or GitHub PR, from humans and from bots such as CodeRabbit. Decides which ones are right, fixes those, and replies to each thread.
 - **[record-demo](skills/record-demo/SKILL.md)**. Record a short MP4 of a UI change in a real Chrome window: title card, broken state, fixed state, side by side end card. Ships `review-clip.sh`, a gate that rejects clips that are too long or mostly frozen, and a Playwright template.
 
