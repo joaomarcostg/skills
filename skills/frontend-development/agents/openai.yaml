@@ -1,0 +1,15 @@
+interface:
+  display_name: Frontend Development
+  short_description: Compose polished, responsive UI from a lasting design system
+  default_prompt: Use $frontend-development to load or establish this project's design
+    foundation, compose reusable components into the requested responsive UI, and
+    verify its states, accessibility, motion, and visual quality.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,6 +1,6 @@
 # skills
 
-Agent skills for explaining code, writing for humans, reviewing merge requests, and taking a ticket from intake to shipped. They run in Claude Code, Codex, Cursor, and every other agent the [skills CLI](https://github.com/vercel-labs/skills) supports.
+Agent skills for building frontend experiences, explaining code, writing for humans, reviewing merge requests, and taking a ticket from intake to shipped. They run in Claude Code, Codex, Cursor, and every other agent the [skills CLI](https://github.com/vercel-labs/skills) supports.
 
 ## Install
 
@@ -26,6 +26,10 @@ In Claude Code each skill is also a slash command: `/explain`, `/concise`, `/rev
 
 - **[explain](skills/explain/SKILL.md)**. Explain a concept, bug, merge request, or piece of code from the ground up. Starts from the problem, defines every term at first use, cites `file:line`, and uses one real example instead of three paragraphs.
 - **[concise](skills/concise/SKILL.md)**. Rewrite text another person will read so it sounds like a person wrote it. MR comments, MR descriptions, Slack, Jira, commit messages. Cuts hedging, AI tells, and anything the reader can already see in the diff.
+
+### Frontend
+
+- **[frontend-development](skills/frontend-development/SKILL.md)**. Build responsive UI from a lasting design foundation. Reuse tokens, components, and patterns; carry loading, recovery, accessibility, and motion through shared code; verify the finished experience in the browser.
 
 ### Merge requests
 
